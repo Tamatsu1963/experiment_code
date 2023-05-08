@@ -34,8 +34,8 @@ for k=1:5
         frule_day_data((l-1)*rule_size+1:l*rule_size,k)=frule_all_data(1:rule_size,l+4*(k-1));
         porking_day_data((l-1)*rule_size+1:l*rule_size,k)=porking_all_data(1:rule_size,l+4*(k-1)); 
         laps_day_data((l-1)*rule_size+1:l*rule_size,k)=laps_all_data(1:rule_size,l+4*(k-1));
-        CR_day_data((l-1)*rule_size+1:l*rule_size,k)=CR_all_data(1:rule_size,l+4*(k-1)); 
-        pCR_day_data((l-1)*rule_size+1:l*rule_size,k)=pCR_all_data(1:rule_size,l+4*(k-1));
+        CR_day_data((l-1)*rule_size+1:l*rule_size,k)=CR_all_data(1:rule_size,l+4*(k-1));  
+        pCR_day_data((l-1)*rule_size+1:l*rule_size,k)=pCR_all_data(1:rule_size,l+4*(k-1)); 
     end
 end
 %計算処理
