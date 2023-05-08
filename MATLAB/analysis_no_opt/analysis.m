@@ -39,11 +39,11 @@ for ii=1:n
     %i_NP = f_nextporking(track_data);
     [i_CR, i_pCR] = f_nopt_correct_response(track_data,s3n);
     rule(1,ii) = i_rule;
-    frule(1,ii) = i_frule;
-    porking(1,ii) = i_porking;
-    CR(1,ii) = i_CR;
-    pCR(1,ii) = i_pCR;
-    laps(1,ii) = s3n;
+    frule(1,ii) = i_frule; 
+    porking(1,ii) = i_porking; 
+    CR(1,ii) = i_CR; 
+    pCR(1,ii) = i_pCR; 
+    laps(1,ii) = s3n; 
 end
 
 %save
