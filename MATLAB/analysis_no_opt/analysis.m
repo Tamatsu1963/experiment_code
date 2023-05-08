@@ -1,6 +1,5 @@
-%no opt not moved_only 最新
-clear
-clc
+%no opt not moved_only
+clear,clc
 
 cd C:\Users\sp_tamatsu\Documents\MATLAB\program
 %name: task_miceid
